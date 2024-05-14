@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*  header*/
+
+header img{
+    width: 7%;
+}
+
+header{
+    background-color: brown;
+    padding: 1.8rem;
+}
+.head{
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+
+.head li a{
+    color: white;
+    margin-right: 4rem;
+    font-size: 1.3rem;
+   
+}
+.head li a:hover{
+    color: rgba(12, 5, 6, 0.308);
+    transition: 0.8s;
+    
+}
+
+/* secção 1 */
+
+.section{
+    padding: 15rem;
+    background-image: url(imagens/lego\ sesao\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+section div{
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+.hr1{
+    width: 9rem;
+    height: 0.2rem;
+    background-color: black;
+
+}
+
+/* secção 2 */
+
+.section2{
+    padding: 5rem;
+    background-color: grey;
+}
+.section2 h2{
+    text-align: center;
+    font-size: 2.8rem;
+}
+.hr2{
+    margin: 0 auto;
+    width: 4rem;
+    height: 0.2rem;
+    background-color: black;
+}
+.pai{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.pai div{
+    background-color: rgb(46, 151, 151);
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+.pai div p{
+    font-size: 2rem;
+}
+
+
+.pai img{
+    width: 100%;
+}
+
+
+
