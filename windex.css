@@ -10,6 +10,7 @@
 
 header img{
     width: 7%;
+    margin-left: 4rem;
 }
 
 header{
@@ -21,13 +22,17 @@ header{
     justify-content: end;
     margin-right: 5rem;
 }
-
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .head li a{
     color: white;
     margin-right: 4rem;
     font-size: 1.3rem;
-   
+
 }
 .head li a:hover{
     color: rgba(12, 5, 6, 0.308);
@@ -52,40 +57,54 @@ section div{
     width: 9rem;
     height: 0.2rem;
     background-color: black;
-
+    border-radius: 15px;
 }
 
 /* secção 2 */
 
 .section2{
-    padding: 5rem;
+    padding: 2.8rem;
     background-color: grey;
 }
 .section2 h2{
     text-align: center;
     font-size: 2.8rem;
+    
 }
 .hr2{
     margin: 0 auto;
     width: 4rem;
     height: 0.2rem;
     background-color: black;
+    border-radius: 15px;
 }
 .pai{
     padding: 5rem;
     display: flex;
-    align-items: center;
-    
 }
 .pai div{
-    background-color: rgb(46, 151, 151);
+    background-color: rgb(203, 211, 211);
     width: 20rem;
-    height: 20rem;
+    height: 25rem;
     text-align: center;
     margin-right: 2rem;
+    box-shadow: 4px 4px 6px black;
+}
+.pai div:hover{
+    box-shadow: 4px 4px 6px white;
+    transition: 0.8s;
+}
+.pai div img{
+    width: 20rem;
+    height: 13rem;
+}
+.hr2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .pai div p{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    
 }
 
 
@@ -93,5 +112,28 @@ section div{
     width: 100%;
 }
 
+.about{
+    background-color: brown;
+    display: flex;
+   
+
+
+}
+.about div img{
+    width: 50vw;
+    height: 60vh;
+}
+.about div{
+    display: flex;
+}
+.about div h2{
+    text-align: center;
+    
+}
+
+.bout{
+    width: 50vw;
+    height: 50vh;
+}
 
 
