@@ -49,9 +49,9 @@ header{
     background-size: cover;
     background-position: bottom;
 }
-section div{
+.section div{
     font-size: 2.5rem;
-    margin-top: -2rem;
+    margin-top: -5rem;
 }
 .hr1{
     width: 9rem;
@@ -81,6 +81,7 @@ section div{
 .pai{
     padding: 5rem;
     display: flex;
+    margin-top: -3rem;
 }
 .pai div{
     background-color: rgb(203, 211, 211);
@@ -89,6 +90,7 @@ section div{
     text-align: center;
     margin-right: 2rem;
     box-shadow: 4px 4px 6px black;
+ 
 }
 .pai div:hover{
     box-shadow: 4px 4px 6px white;
@@ -108,32 +110,40 @@ section div{
 }
 
 
-.pai img{
-    width: 100%;
+/* section 3 */
+
+.section3{
+    display: flex;
+    background-color: rgba(165, 42, 42, 0.918);
+}
+
+.section3 div img{
+    width: 50vw;
+    height: auto;
 }
 
 .about{
-    background-color: brown;
-    display: flex;
-   
-
-
-}
-.about div img{
-    width: 50vw;
-    height: 60vh;
-}
-.about div{
-    display: flex;
-}
-.about div h2{
+    width: 40vw;
+    height: 40vh;
     text-align: center;
-    
+    margin: auto ;
+    background-color: aqua;
+}
+.about h2{
+    font-size: 1.8rem;
+    padding: 2rem;
+    color: rgb(89, 228, 25);
+}
+.about p{
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
-.bout{
-    width: 50vw;
-    height: 50vh;
-}
+
+
+
+
+
+
 
 
